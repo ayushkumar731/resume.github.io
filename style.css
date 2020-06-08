@@ -127,7 +127,7 @@ section:nth-child(2n){
 	line-height: 28px;
 	font-weight: 100;
 	font-size: 1.1rem;
-	font-family:Arial, Helvetica, sans-serif ; 
+	font-family:sans-serif ; 
 }
 #pic{
 	height: 12rem;
@@ -335,7 +335,7 @@ section:nth-child(2n){
 	left: 2%;
 	height: 3rem;
 	width: 3rem;
-	background-image: url(static/webdcodeicon3.jpg);
+	background-image: url(webdcodeicon3.jpg);
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center;
@@ -347,7 +347,7 @@ section:nth-child(2n){
 	left: 2%;
 	height: 3rem;
 	width: 3rem;
-	background-image: url(static/webdcodeicon3.jpg);
+	background-image: url(webdcodeicon3.jpg);
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center;
@@ -438,7 +438,7 @@ section:nth-child(2n){
 	left: 2%;
 	height: 3rem;
 	width: 3rem;
-	background-image: url(static/webdcodeicon3.jpg);
+	background-image: url(webdcodeicon3.jpg);
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center;
@@ -450,7 +450,7 @@ section:nth-child(2n){
 	left: 2%;
 	height: 3rem;
 	width: 3rem;
-	background-image: url(static/webdcodeicon3.jpg);
+	background-image: url(webdcodeicon3.jpg);
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center;
@@ -1058,7 +1058,7 @@ input{
 		left: 2%;
 		height: 3rem;
 		width: 3rem;
-		background-image: url(static/webdcodeicon3.jpg);
+		background-image: url(webdcodeicon3.jpg);
 		background-repeat: no-repeat;
 		background-size: contain;
 		background-position: center;
@@ -1070,7 +1070,7 @@ input{
 		left: 2%;
 		height: 3rem;
 		width: 3rem;
-		background-image: url(static/webdcodeicon3.jpg);
+		background-image: url(webdcodeicon3.jpg);
 		background-repeat: no-repeat;
 		background-size: contain;
 		background-position: center;
@@ -1142,7 +1142,7 @@ input{
 		left: 2%;
 		height: 3rem;
 		width: 3rem;
-		background-image: url(static/webdcodeicon3.jpg);
+		background-image: url(webdcodeicon3.jpg);
 		background-repeat: no-repeat;
 		background-size: contain;
 		background-position: center;
@@ -1154,7 +1154,7 @@ input{
 		left: 2%;
 		height: 3rem;
 		width: 3rem;
-		background-image: url(static/webdcodeicon3.jpg);
+		background-image: url(webdcodeicon3.jpg);
 		background-repeat: no-repeat;
 		background-size: contain;
 		background-position: center;
