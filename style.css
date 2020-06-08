@@ -918,6 +918,18 @@ input{
 		letter-spacing: 1px;
 	}
 
+
+	.section-heading{
+		width: auto;
+		padding: 20px 10px 10px;
+		font-weight: 400;
+	}
+	.section-heading span{
+		font-size:35px;
+	}
+
+
+
 	#contact-display{
 		display: flex;
 		flex-direction: column;
