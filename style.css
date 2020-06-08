@@ -126,7 +126,7 @@ section:nth-child(2n){
 	padding: 10px;
 	height: 100%;
 	line-height: 28px;
-	font-weight: 100;
+	font-weight:300;
 	font-size: 1.1rem;
 	font-family:sans-serif ; 
 }
