@@ -1208,6 +1208,13 @@ input{
 		letter-spacing: 1px;
 	}
 
+	.section-heading{
+		font-weight: 500;
+	}
+	.section-heading span{
+		font-size:30px;
+	}
+
 	#portfolio-display{
 		display: flex;
 		flex-direction: column;
