@@ -1,4 +1,6 @@
-# resume.github.io
+#  https://ayushkumar731.github.io/resume.github.io/
+
+
 About The resume: 
  It is a demo project. 
  It is not personal resume.
