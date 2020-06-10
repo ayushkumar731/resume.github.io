@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Reg-Form</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="how-to-make-registration-form.css">
+</head>
+<body>
+	<header id="header">
+		<h1> Registration Form</h1>
+	</header>
+	<main>
+		<div id="form">
+		<form method="post">
+			<h1>Register Here</h1>
+			<div id="config">
+			<div class="form-item">
+				<label for="name">Name<span>*</span></label>
+				<input type="text" name="name" id="name" required=>
+			</div>
+			<div class="form-item">
+				<label for="fathername">Father's Name<span>*</span></label>
+				<input type="text" name="fathername" id="fathername" required=>
+			</div>
+			<div class="form-item">
+				<label for="mothername">Mother's Name<span>*</span></label>
+				<input type="text" name="mothername" id="mothername" required>
+			</div>
+			<div class="form-item dob">
+				<label for="dob">Date Of Birth<span>*</span></label>
+				<input type="date" name="dob" id="dob" min="1990-01-01" max="2002-01-01" required>
+			</div>
+			<div class="form-item photo">
+				<label for="photo">Photo<span>*</span></label>
+				<input type="file" name="pic" id="photo" required>
+			</div>
+			<div class="form-item">
+				<label for="email">Email-id</label>
+				<input type="email" name="email" id="email" placeholder="abc@example.com">
+			</div>
+			<div class="form-item mob-no">
+				<label for="mob-no">Mobile Number<span>*</span></label>
+				<select id="country-code" name="country-code" disabled>
+					<option>+91</option>
+				</select>
+				<input type="tel" name="mob-no" id="mob-no" pattern="[0-9]{10}" required>
+			</div>
+			<div class="form-item gender">
+				<label for="gender">Gender</label>
+				<input type="radio" name="gender" id="male" value="male"><label for="male" class="gen-label">Male</label>
+				<input type="radio" name="gender" id="female" value="female"><label for="female" class="gen-label">Female</label>
+				<input type="radio" name="gender" id="other" value="other"><label for="other" class="gen-label">Other</label>
+			</div>
+			<div class="form-item">
+				<button>submit</button>
+			</div>
+			</div>
+		</form>
+		</div>
+	</main>
+</body>
+</html>

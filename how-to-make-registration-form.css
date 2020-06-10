@@ -1,0 +1,309 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body{
+	background-color: #222;
+}
+#header h1{
+	font-size: 3rem;
+	font-weight: bold;
+	font-family: sans-serif;
+	text-align: center;
+	color: red;
+	margin-top: 4vh;
+	text-decoration: underline;
+}
+#form{
+	width: 700px;
+	height:auto;
+	color: white;
+	margin: auto;
+	margin-top:10vh;
+	padding: 10px; 
+	border-radius: 8px;
+	box-shadow: 0px 0px 2px 3px grey;
+}
+#form h1{
+	text-align: center;
+	margin-bottom: 2rem;
+	text-decoration: underline;
+}
+
+#config{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 8px;
+}
+label{
+	display: block;
+	margin-bottom:0.5rem; 
+	font-size: 1.2rem;
+	letter-spacing: 1px;
+}
+.form-item{
+	margin-bottom: 1rem;
+}
+input[type="text"]{
+	width: 20rem;
+	border: none;
+	border-bottom: 2px solid red;
+	outline: none;
+	font-size: 1.5rem;
+	background: lightgrey;
+	color: brown;
+	font-size: 400;
+	padding: 5px;
+}
+input[type="email"]{
+	width: 20rem;
+	border: none;
+	border-bottom: 2px solid red;
+	font-size: 1.5rem;
+	outline: none;
+	font-size: 1.5rem;
+	background: lightgrey;
+	color: brown;
+	font-size: 400;
+	padding: 5px;
+}
+.dob{
+	margin-left:-11.5rem;
+}
+
+.photo{
+	margin-left: -4rem;
+}
+
+.mob-no{
+	margin-left: -0.5rem;
+	outline: none;
+}
+.gender{
+	margin-left: -7.6rem;
+}
+
+.gen-label{
+		display:inline-block;
+		margin-right:4px;
+}
+
+button{
+	padding: 5px;
+	font-size: 1.5rem;
+	letter-spacing: 1.2px;
+	margin-top: 10px;
+	box-shadow: 0px 0px 2px 2px grey;
+	width:10rem;
+}
+
+::placeholder{
+
+	padding: 5px;
+	letter-spacing: 1px;
+}
+
+select{
+	font-size: 1.5rem;
+	color: black;
+	font-size: 400;
+	padding: 5px;
+}
+
+input[type="tel"]{
+	width: 15rem;
+	border: none;
+	border-bottom: 2px solid red;
+	outline: none;
+	font-size: 1.5rem;
+	background: lightgrey;
+	color: brown;
+	font-size: 400;
+	padding: 5px;
+}
+
+
+
+/*///////////MEDIA QUERY///////////////*/
+
+
+
+@media screen and (max-width: 786px){
+
+	#form{
+		width: 100%;
+		border-radius:0;
+		box-shadow: none;
+	}
+
+}
+
+@media screen and (max-width: 570px){
+
+	#header h1{
+		font-size: 2.5rem;
+		margin-top: 8vh;
+		
+	}
+}
+
+@media screen and (max-width: 440px){
+
+
+	#form{
+		width: 100%;
+		border-radius:0;
+		box-shadow: none;
+	}
+
+	#header h1{
+		font-size: 2.2rem;
+		margin-top: 8vh;
+		
+	}
+	#config{
+		padding: 15px;
+	}
+
+	input[type="text"]{
+		width: 18rem;
+		font-size: 1.5rem;
+		background: lightgrey;
+		font-weight: 300;
+		padding: 5px;
+	}
+	input[type="email"]{
+		width: 18rem;
+		font-size: 1.5rem;
+		font-weight: 300;
+		font-size: 400;
+	}
+
+	.dob{
+	margin-left:0.5rem;
+	}
+	input[type="date"]{
+		width: 18rem;
+		font-size: 1.5rem;
+		font-weight: 300;
+	
+	}
+
+		input[type="file"]{
+		width: 20rem;
+		font-size: 1.3rem;
+		
+	}
+
+	.photo{
+		margin-left: 2rem;
+	}
+
+	input[type="tel"]{
+		width: 14rem;
+		font-size: 1.5rem;
+		font-weight: 300;
+	
+	}
+
+	.mob-no{
+		margin-left: 0.6rem;
+	}
+	.gender{
+		margin-left: -2.5rem;
+	}
+	.gender input:checked{
+		width:1.2rem;
+		height: 1.2rem;
+	}
+
+	.gender label{
+		font-size: 1.5rem;
+	}
+
+	.gen-label{
+		display: inline-block;
+		margin-right: 3px;
+	}
+
+
+	button{
+		font-size: 2rem;
+		letter-spacing: 8px;
+		width:14rem;
+	}
+}
+
+
+@media screen and (max-width: 361px){
+
+	#header h1{
+		font-size:1.8rem;
+		
+	}
+
+	#form h1{
+		font-size: 1.5rem;
+	}
+	#config{
+		padding: 18px;
+	}
+
+	input[type="text"]{
+		width: 15rem;
+	}
+	input[type="email"]{
+		width: 15rem;
+	}
+
+	.dob{
+		margin-left:0.2rem;
+	}
+	input[type="date"]{
+		width: 15rem;
+	}
+
+	input[type="file"]{
+		width: 15rem;
+		font-size: 1rem;
+		
+	}
+
+	.photo{
+		margin-left: 0.5rem;
+	}
+
+	input[type="tel"]{
+		width: 10rem;
+	}
+
+	.mob-no{
+		margin-left: 0.1rem;
+	}
+	.gender{
+		margin-left: -1.1rem;
+	}
+	.gender input:checked{
+		width:1.2rem;
+		height: 1.2rem;
+	}
+
+	.gender label{
+		font-size: 1.2rem;
+	}
+
+	.gen-label{
+		display:inline-block;
+		margin-bottom:4px;
+	}
+	button{
+		font-size: 1.7rem;
+		letter-spacing: 6px;
+		width:12rem;
+	}
+
+}
